@@ -4,8 +4,8 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    for (first = 0; first < nums.length; first++) {
-        for (second = first + 1; second < nums.length; second++) {
+    for (let first = 0; first < nums.length; first++) {
+        for (let second = first + 1; second < nums.length; second++) {
             if (nums[first] + nums[second] === target){
                 return [first, second];
             };
