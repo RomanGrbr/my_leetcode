@@ -5,6 +5,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    x = 121
+    x = 12321
     result = Solution()
     print(result.isPalindrome(x))
